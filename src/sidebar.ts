@@ -21,6 +21,7 @@ const posts: DefaultTheme.SidebarItem[] = [
 const docs: DefaultTheme.SidebarItem = {
   base: "docs/",
   items: [
+    { text: "仓库与发布", link: "repo-workflow" },
     { text: "分享经验", link: "contribute" },
     { text: "审稿工作流", link: "publish" },
     { text: "路径格式", link: "path" },
