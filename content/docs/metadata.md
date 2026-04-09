@@ -45,17 +45,14 @@ date: 2023-02-19
   - [`degree`](#degree)
   - [`region`](#region)
   - [`program`](#program)
-  - [`university`](#university)
   - [`year`](#year)
 - `abroad` - 海外交流
   - [`region`](#region)
-  - [`university`](#university)
 - `job` - 就业经验
   - [`employer`](#employer)
   - [`year`](#year)
 - `recruit` - 招生信息
   - [`region`](#region)
-  - [`university`](#university)
 - `experience` - 其他专项经验分享
 
 ## 所有可用字段
