@@ -50,7 +50,7 @@ ABCD
 
 ## 友情链接
 
-- [16级材料系保研手册](https://docs.qq.com/doc/DY1JUbGJkaGNMTHVq?disableReturnList=1&_from=2&ADUIN=820251273&ADSESSION=1573275641&ADTAG=CLIENT.QQ.5665_.0&ADPUBNO=26946&jumpuin=820251273)
+<!-- - [16级材料系保研手册](https://docs.qq.com/doc/DY1JUbGJkaGNMTHVq?disableReturnList=1&_from=2&ADUIN=820251273&ADSESSION=1573275641&ADTAG=CLIENT.QQ.5665_.0&ADPUBNO=26946&jumpuin=820251273)
 - [生物医学工程保研手册](https://docs.qq.com/doc/DRmtoQlhEdm9oSnpD)
 - 南科大北美申请小分队 \[QQ群群号\]: 894135698
 - 坚果钳留学信息分享平台\[微信公众号\]: Nutcracker2020
@@ -63,4 +63,4 @@ ABCD
 - 南科手册 https://sustech.online
 - 南科小镇
 
-  <!-- <img src="src/img/readme/sustech_town.jpg"/> -->
+  <img src="src/img/readme/sustech_town.jpg"/> -->
