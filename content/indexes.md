@@ -12,6 +12,7 @@ type: page
 import { posts } from "../src/collections";
 import { REGIONS } from "./region/[key].paths";
 import { SCHOOLS } from "./school/[key].paths";
+import { TYPES } from "./type/[key].paths";
 import { YEARS } from "./year/[year].paths";
 
 const yearEntries = YEARS.map((year) => ({
@@ -34,6 +35,12 @@ const schoolEntries = Object.entries(SCHOOLS).map(([key, label]) => ({
   key,
   label,
   count: posts.filter((post) => post.metadata.school === key).length,
+}));
+
+const typeEntries = Object.entries(TYPES).map(([key, label]) => ({
+  key,
+  label,
+  count: posts.filter((post) => post.metadata.type === key).length,
 }));
 </script>
 
@@ -58,5 +65,13 @@ const schoolEntries = Object.entries(SCHOOLS).map(([key, label]) => ({
 <ul>
   <li v-for="entry in schoolEntries" :key="entry.key">
     <a :href="`/school/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
+  </li>
+</ul>
+
+## 按经验类型
+
+<ul>
+  <li v-for="entry in typeEntries" :key="entry.key">
+    <a :href="`/type/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
   </li>
 </ul>
