@@ -35,3 +35,7 @@
 2. 编辑里面的 `index.md`
 3. 保存图片或附件到同一目录
 4. 提交 `main` 分支的PR
+
+## 如何更改网页主题色
+
+在 `src/.vitepress/theme/style.css` 中进行颜色设置

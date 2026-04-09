@@ -25,7 +25,6 @@ export default {
         activeMatch: "docs/contribute",
       },
       { text: "参考文档", link: "docs/contribute", activeMatch: "docs" },
-      { text: "技术博客", link: "blog", activeMatch: "blog" },
     ],
     sidebar: {
       "/docs": sidebar.docs,
