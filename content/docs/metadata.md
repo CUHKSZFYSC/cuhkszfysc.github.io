@@ -5,11 +5,10 @@
 ```markdown
 ---
 type: grad
-author: 黄冠超
-year: 19
+author: 徐杨生
+year: 14
 degree: master
-university: nd
-department: sme
+school: hss
 date: 2023-02-19
 ---
 
@@ -71,34 +70,9 @@ date: 2023-02-19
 
 录取的学位，可选值为 `master` 和 `doctor`。
 
-### `department`
-
-申请人在南科大所属的院系对应的代码，由院系域名决定。例如深港微电子学院的域名为 `sme.sustech.edu.cn` 则其代码为 `sme`，这与通行的缩写和课程代号前缀可能有所不同。可选值如下：
-
-```yaml
-bio: 生命科学学院
-bme: 生物医学工程系
-business: 商学院
-chem: 化学系
-cse: 计算机科学与工程系
-eee: 电子与电气工程系
-ese: 环境学院
-ess: 地球与空间科学系
-mae: 力学与航空航天工程系
-math: 数学系
-mee: 机械与能源工程系
-med: 医学院
-mse: 材料科学与工程系
-ocean: 海洋科学与工程系
-phy: 物理系
-sdim: 系统设计与智能制造学院
-sme: 深港微电子学院
-stat-ds: 统计与数据科学系
-```
-
 ### `school`
 
-作者所属的学校/学院代码，对应 `src/metadata.ts` 中的 `school` 选项。若帖子填写了该字段，`/updates` 页面会在类型标签后额外显示一个学校标签。可选值如下：
+作者所属的学院代码，对应 `src/metadata.ts` 中的 `school` 选项。若帖子填写了该字段，`/updates` 页面会在类型标签后额外显示一个学校标签。可选值如下：
 
 ```yaml
 sds: 数据科学学院
