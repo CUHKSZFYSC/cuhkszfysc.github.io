@@ -1,3 +1,7 @@
+---
+type: page
+---
+
 # 按分享类型索引
 
 <script setup>

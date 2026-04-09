@@ -1,3 +1,7 @@
+---
+type: page
+---
+
 # Hello
 
 <script setup>

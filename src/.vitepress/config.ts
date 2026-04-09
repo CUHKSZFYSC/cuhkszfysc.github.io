@@ -19,6 +19,7 @@ export default {
     nav: [
       { text: "主页", link: "/" },
       { text: "最近更新", link: "updates", activeMatch: "updates" },
+      { text: "索引", link: "indexes", activeMatch: "indexes" },
       {
         text: "分享经验",
         link: "docs/contribute",

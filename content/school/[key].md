@@ -4,17 +4,14 @@ type: page
 
 # {{ $params.val }}
 
-<script setup>
+<script setup lang="ts">
 import { useData } from "vitepress";
 
 import { posts } from "@/collections";
 
 const { params } = useData();
 const filteredPosts = posts.filter(
-  (post) =>
-    Array.isArray(post.metadata.region)
-      ? post.metadata.region.includes(params.value.key)
-      : post.metadata.region === params.value.key,
+  (post) => post.metadata.school === params.value.key,
 );
 </script>
 

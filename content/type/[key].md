@@ -1,3 +1,7 @@
+---
+type: page
+---
+
 # {{ $params.val }}
 
 <script setup>
