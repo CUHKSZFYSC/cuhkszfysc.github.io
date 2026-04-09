@@ -50,7 +50,7 @@
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
   --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-2: rgb(80, 79, 79);
   --vp-c-brand-3: rgb(34, 24, 21);
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
