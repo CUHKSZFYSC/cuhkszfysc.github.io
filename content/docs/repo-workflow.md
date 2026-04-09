@@ -39,3 +39,7 @@
 ## 如何更改网页主题色
 
 在 `src/.vitepress/theme/style.css` 中进行颜色设置
+
+## 如何更改右上角链接
+
+在 `src/.vitepress/config.ts` 中进行设置
