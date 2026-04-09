@@ -43,20 +43,19 @@ const typeEntries = Object.entries(TYPES).map(([key, label]) => ({
   count: posts.filter((post) => post.metadata.type === key).length,
 }));
 </script>
+## 按经验类型
+
+<ul>
+  <li v-for="entry in typeEntries" :key="entry.key">
+    <a :href="`/type/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
+  </li>
+</ul>
 
 ## 按年级
 
 <ul>
   <li v-for="entry in yearEntries" :key="entry.year">
     <a :href="`/year/${entry.year}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
-  </li>
-</ul>
-
-## 按地区
-
-<ul>
-  <li v-for="entry in regionEntries" :key="entry.key">
-    <a :href="`/region/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
   </li>
 </ul>
 
@@ -68,10 +67,11 @@ const typeEntries = Object.entries(TYPES).map(([key, label]) => ({
   </li>
 </ul>
 
-## 按经验类型
+## 按地区
 
 <ul>
-  <li v-for="entry in typeEntries" :key="entry.key">
-    <a :href="`/type/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
+  <li v-for="entry in regionEntries" :key="entry.key">
+    <a :href="`/region/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
   </li>
 </ul>
+
