@@ -24,7 +24,7 @@ export default {
         link: "docs/contribute",
         activeMatch: "docs/contribute",
       },
-      { text: "参考文档", link: "docs/contribute", activeMatch: "docs" },
+      { text: "参考文档", link: "docs/repo-workflow", activeMatch: "docs/repo-workflow" },
     ],
     sidebar: {
       "/docs": sidebar.docs,
