@@ -41,6 +41,9 @@ ABCD
 飞跃手册欢迎**所有的毕业生**参考[经验分享指南](./docs/contribute)分享你们的故事！
 
 ## 贡献者
+本站的设计、布局和维护方式受到[南方科技大学飞跃手册](https://sustech-application.com/)团队的重要影响。本团队也有幸得到了南科大团队的支持，并允许我们直接使用这套开发多年的成熟框架。在此，我们郑重表示感谢！
+
+以下是通过GitHub参与投稿的同学：
 
 <a href="https://github.com/CUHKSZFYSC/cuhkszfysc.github.io/graphs/contributors">
   <br><img src="https://contributors-img.web.app/image?repo=CUHKSZFYSC/cuhkszfysc.github.io" />
