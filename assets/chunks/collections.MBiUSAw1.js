@@ -1,0 +1,1 @@
+import{d as o}from"./pages.data.BI4A0Rmm.js";const e=o.reduce((t,s)=>(s.url.startsWith("/blog/")?t.blogs.push(s):s.url.startsWith("/docs/")?t.docs.push(s):s.metadata.type==="page"?t.pages.push(s):t.posts.push(s),t),{blogs:[],docs:[],pages:[],posts:[]}),{blogs:r,docs:p,pages:d,posts:u}=e;export{u as p};
