@@ -1,9 +1,9 @@
 ---
 year: 25
-type: grad
+type: job
 degree: ms
 region: us
-school: fe
+school: sds
 date: 2026-04-23
 ---
 
