@@ -1,0 +1,1 @@
+import{_ as t,o as l,c as a,ag as o}from"./chunks/framework.Dr9kcJF8.js";const h=JSON.parse('{"title":"路径格式","description":"","frontmatter":{},"headers":[],"relativePath":"docs/path.md","filePath":"docs/path.md"}'),d={name:"docs/path.md"};function c(i,e,n,s,r,p){return l(),a("div",null,[...e[0]||(e[0]=[o("",31)])])}const m=t(d,[["render",c]]);export{h as __pageData,m as default};
